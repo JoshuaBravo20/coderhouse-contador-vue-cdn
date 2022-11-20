@@ -1,0 +1,26 @@
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#numberBox {
+    background-color: rgb(217, 241, 226);
+    border-radius: 5px;
+    padding: 10px;
+    color: rgb(29, 13, 13);
+}
+
+#minus,
+#plus,
+#numberBox {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.14);
+}
+
+#minus:hover,
+#plus:hover {
+    border: 2px solid white;
+}
